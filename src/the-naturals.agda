@@ -6,8 +6,6 @@ import Relation.Binary.PropositionalEquality as Eq
 open Eq using (_≡_; refl)
 open Eq.≡-Reasoning using (begin_; _≡⟨⟩_; _∎)
 
-open import IO
-
 infixl 6  _+_  _∸_
 infixl 7  _*_
 
